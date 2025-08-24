@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest --config jest.config.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2"
