@@ -6,7 +6,10 @@ module.exports = {
   setupFilesAfterEnv: ["<rootDir>/__tests__/setup.js"],
 
   // Patrones de archivos de test
-  testMatch: ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"],
+  testMatch: [
+    "**/__tests__/**/*.test.js",
+    "**/__tests__/**/*.spec.js"
+  ],
 
   // Directorios a ignorar
   testPathIgnorePatterns: ["/node_modules/", "/build/", "/dist/"],
