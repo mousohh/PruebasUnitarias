@@ -1,3 +1,5 @@
+const jest = require('jest-mock');
+
 // Configuración global para Jest
 // Este archivo se ejecuta antes de todos los tests
 
